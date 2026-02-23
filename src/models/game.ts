@@ -139,6 +139,7 @@ export class game{
         // Passe à la main suivante ou joue le dealer
         this.nextHand()
     }
+    
 
     public playerSplit(): void {
         const currentHand = this.player.getCurrentHand()
